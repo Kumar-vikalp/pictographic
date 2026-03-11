@@ -3,7 +3,11 @@ import time
 
 SUBMIT_URL = "https://app.pictographic.io/submit_prompt"
 FIREBASE_URL = "https://pictographic-54d58-default-rtdb.firebaseio.com"
-
+STYLES = [
+    "oldschool", "notion", "lined", "purple", "isometric-modern", "flat-modern",
+    "inkmodern", "flatcool", "cartoon-cute", "cartoon-black-white",
+    "isometric-sketch", "minimal-line", "black-and-white-line"
+]
 PROMPT = "fly emirates jersey"
 STYLE = "oldschool"
 DIMENSION = "1:1 square 1024x1024"
